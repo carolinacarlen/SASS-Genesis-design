@@ -1,6 +1,7 @@
 @import "./reset";
 @import "./imagegallery";
 @import "./header";
+@import "./maincontent";
 
 * {
   box-sizing: border-box;
@@ -12,4 +13,5 @@ body {
   font-family: "Mulish";
   display: flex;
   align-items: center;
+  background-color: #f2f2f2;
 }

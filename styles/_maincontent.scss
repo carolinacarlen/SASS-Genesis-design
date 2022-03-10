@@ -1,0 +1,26 @@
+.aboutus {
+  margin-top: 7rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 635px;
+  height: 106px;
+
+  &__intro {
+    display: flex;
+    align-items: flex-start;
+    font-weight: bold;
+    font-size: 28px;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  &__list ul li {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+}

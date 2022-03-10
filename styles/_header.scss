@@ -1,13 +1,25 @@
 .header {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 24px 10%;
+  flex-direction: row;
+  margin-top: 3rem;
 }
 
-.nav__listitem {
+.logo {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.nav__header ul {
   display: flex;
   flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.nav__header ul li {
+  padding-left: 1rem;
+  align-items: flex-end;
+  justify-content: flex-end;
 }
 
 .main-info {
@@ -17,7 +29,7 @@
   justify-content: space-evenly;
   width: 635px;
   height: 191px;
-  margin-top: 3rem;
+  margin-top: 6rem;
 }
 
 .intro-text {
@@ -37,8 +49,10 @@
 
 .intro-sidetext {
   display: flex;
-  align-self: flex-end;
+  align-self: center;
   justify-content: flex-end;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   font-style: italic;
+  position: relative;
+  right: 8rem;
 }

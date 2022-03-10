@@ -451,7 +451,7 @@ textarea {
   grid-template-rows: repeat(32, 1fr);
   width: 1110px;
   height: 1960px;
-  margin-top: 3rem;
+  margin-top: 8rem;
   /* gallery - make it responsive to smaller displays with different width and height */
 }
 .gallery__item {
@@ -508,14 +508,26 @@ textarea {
 
 .header {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 24px 10%;
+  flex-direction: row;
+  margin-top: 3rem;
 }
 
-.nav__listitem {
+.logo {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.nav__header ul {
   display: flex;
   flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.nav__header ul li {
+  padding-left: 1rem;
+  align-items: flex-end;
+  justify-content: flex-end;
 }
 
 .main-info {
@@ -525,7 +537,7 @@ textarea {
   justify-content: space-evenly;
   width: 635px;
   height: 191px;
-  margin-top: 3rem;
+  margin-top: 6rem;
 }
 
 .intro-text {
@@ -545,10 +557,37 @@ textarea {
 
 .intro-sidetext {
   display: flex;
-  align-self: flex-end;
+  align-self: center;
   justify-content: flex-end;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   font-style: italic;
+  position: relative;
+  right: 8rem;
+}
+
+.aboutus {
+  margin-top: 7rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 635px;
+  height: 106px;
+}
+.aboutus__intro {
+  display: flex;
+  align-items: flex-start;
+  font-weight: bold;
+  font-size: 28px;
+}
+.aboutus__list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.aboutus__list ul li {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
 * {
@@ -561,4 +600,5 @@ body {
   font-family: "Mulish";
   display: flex;
   align-items: center;
+  background-color: #f2f2f2;
 }
