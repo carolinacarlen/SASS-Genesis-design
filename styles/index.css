@@ -528,6 +528,16 @@ textarea {
   font-weight: bold;
 }
 
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5%;
+}
+footer .nav__links li {
+  display: inline-block;
+  margin: 15px;
+}
+
 .main-info {
   display: flex;
   flex-direction: column;
@@ -576,15 +586,6 @@ textarea {
   align-items: flex-start;
   font-weight: bold;
   font-size: 28px;
-}
-.aboutus__list {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-}
-.aboutus__list ul li {
-  display: inline-block;
-  margin: 15px;
 }
 
 * {
