@@ -508,26 +508,13 @@ textarea {
 
 .header {
   display: flex;
-  flex-direction: row;
-  margin-top: 3rem;
-}
-
-.logo {
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-
-.nav__header ul {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin-top: 5%;
 }
 
 .nav__header ul li {
-  padding-left: 1rem;
-  align-items: flex-end;
-  justify-content: flex-end;
+  display: inline-block;
+  margin: 15px;
 }
 
 .main-info {
@@ -585,9 +572,8 @@ textarea {
   align-items: flex-end;
 }
 .aboutus__list ul li {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
+  display: inline-block;
+  margin: 15px;
 }
 
 * {
