@@ -4,9 +4,20 @@
   margin-top: 5%;
 }
 
-.nav__header ul li {
+.nav__links li {
   display: inline-block;
   margin: 15px;
+}
+
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+  color: black;
+}
+
+.nav__links li a:hover {
+  color: #4a4ff2;
+  font-weight: bold;
 }
 
 .main-info {
