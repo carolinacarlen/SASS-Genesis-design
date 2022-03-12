@@ -565,6 +565,7 @@ footer .nav__links li {
 
 .intro-sidetext {
   display: flex;
+  flex-wrap: wrap;
   align-self: center;
   justify-content: flex-end;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -574,18 +575,39 @@ footer .nav__links li {
 }
 
 .aboutus {
-  margin-top: 7rem;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
-  width: 635px;
+  align-items: flex-start;
   height: 106px;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  gap: 2rem;
+  line-height: 30px;
 }
 .aboutus__intro {
-  display: flex;
-  align-items: flex-start;
   font-weight: bold;
   font-size: 28px;
+  width: 635px;
+}
+.aboutus__list {
+  line-height: normal;
+  display: flex;
+  flex-direction: column;
+}
+
+hr.solid {
+  border-top: 3px solid #bbb;
+}
+
+.awwwards__list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+.awwwards__list li {
+  max-width: 25ch;
 }
 
 * {
