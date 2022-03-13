@@ -636,43 +636,43 @@ main {
 .section1 {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2rem;
   margin-bottom: 2rem;
 }
 
 .main-text {
   display: flex;
-  flex: 50%;
   flex-direction: column;
+  width: 635px;
+  line-height: 26px;
 }
-
-h2 {
+.main-text__h2 {
   font-weight: bold;
   font-size: 40px;
   line-height: 55px;
   margin-bottom: 1rem;
   margin-top: 2rem;
 }
+.main-text__p1 {
+  margin-bottom: 1rem;
+}
 
-.columns {
+.column {
   display: flex;
   flex-direction: column;
-  flex: 50%;
+  justify-content: space-between;
+}
+.column p {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
 }
 
-.column1 {
-  flex: 50%;
-  padding: 10px;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-}
-
-.column2 {
-  flex: 50%;
-  padding: 10px;
-  flex-direction: flex-end;
-  align-items: flex-end;
+hr.solid {
+  border-top: 1px solid #bbb;
+  margin-top: 2rem;
 }
 
 .skyroadimg {
