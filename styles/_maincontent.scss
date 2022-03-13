@@ -71,3 +71,18 @@ hr.solid {
     max-width: 25ch;
   }
 }
+
+.bestnavigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  margin-bottom: 3rem;
+  position: relative;
+  left: 9rem;
+
+  & li {
+    margin-top: 2rem;
+    max-width: 25ch;
+  }
+}

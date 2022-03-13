@@ -610,6 +610,75 @@ hr.solid {
   max-width: 25ch;
 }
 
+.bestnavigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  margin-bottom: 3rem;
+  position: relative;
+  left: 9rem;
+}
+.bestnavigation li {
+  margin-top: 2rem;
+  max-width: 25ch;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.section1 {
+  display: flex;
+  width: 80%;
+  justify-content: center;
+}
+
+.main-text {
+  display: flex;
+  flex: 50%;
+  flex-direction: column;
+}
+.main-text__h2 {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 55px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 55px;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+.columns {
+  display: flex;
+  flex-direction: column;
+  flex: 50%;
+}
+
+.column1 {
+  flex: 25%;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.column2 {
+  flex: 25%;
+  padding: 10px;
+  flex-direction: flex-end;
+  align-items: flex-end;
+}
+
+.skyroadimg {
+  width: 80%;
+  align-content: center;
+}
+
 * {
   box-sizing: border-box;
   margin: 0 auto;
