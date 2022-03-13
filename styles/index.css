@@ -695,6 +695,26 @@ h2 {
 
 * {
   box-sizing: border-box;
+}
+
+main {
+  max-width: 80%;
+}
+
+.section1 {
+  margin-top: 3rem;
+  display: flex;
+}
+
+.map {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+* {
+  box-sizing: border-box;
   margin: 0 auto;
   padding: 0 auto;
 }
@@ -703,5 +723,4 @@ body {
   font-family: "Mulish";
   display: flex;
   align-items: center;
-  background-color: #f2f2f2;
 }
