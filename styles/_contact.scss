@@ -9,6 +9,45 @@ main {
 .section1 {
   margin-top: 3rem;
   display: flex;
+  justify-content: space-between;
+  gap: 10rem;
+}
+
+.contact-text {
+  flex: 50%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  flex: 50%;
+}
+/*lägg till mellanrum mellan raderna*/
+
+input {
+  width: 100%;
+  height: 15px;
+  border: none;
+  border-bottom: 1px solid grey;
+  margin-top: 20px;
+  font-size: 16px;
+}
+label {
+  margin-top: 20px;
+}
+
+button {
+  max-width: 80px;
+  width: 100%;
+  height: 50px;
+  box-sizing: border-box;
+  margin-top: 50px;
+  border: none;
+  font-size: 16px;
+  background-color: #4a4ff2;
+  color: white;
+  font-weight: 400;
+  cursor: pointer;
 }
 
 .map {
@@ -16,4 +55,5 @@ main {
   align-content: center;
   justify-content: center;
   margin-bottom: 5rem;
+  margin-top: 3rem;
 }
