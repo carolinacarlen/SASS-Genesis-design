@@ -63,13 +63,48 @@ hr.solid {
   border-top: 3px solid #bbb;
 }
 
-.awwwards__list {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 3rem;
-  & li {
-    max-width: 25ch;
-  }
+.awwwards__grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1rem;
+}
+
+.item {
+}
+.item1 {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.item2 {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+.item3 {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+}
+
+.item4 {
+  grid-column: 4 / 5;
+  grid-row: 1 / 2;
+}
+
+.item5 {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+.item6 {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+
+.item7 {
+  grid-column: 4 / 5;
+  grid-row: 2 / 3;
 }
 
 .bestnavigation {

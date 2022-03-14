@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0-modified | 20110126
    License: none (public domain)
@@ -602,13 +601,46 @@ hr.solid {
   border-top: 3px solid #bbb;
 }
 
-.awwwards__list {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 3rem;
+.awwwards__grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1rem;
 }
-.awwwards__list li {
-  max-width: 25ch;
+
+.item1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.item2 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.item3 {
+  grid-column: 3/4;
+  grid-row: 1/2;
+}
+
+.item4 {
+  grid-column: 4/5;
+  grid-row: 1/2;
+}
+
+.item5 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.item6 {
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+
+.item7 {
+  grid-column: 4/5;
+  grid-row: 2/3;
 }
 
 .bestnavigation {
@@ -662,16 +694,13 @@ main {
 .column {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-end;
+  align-content: center;
+  width: 335px;
 }
 .column p {
   display: flex;
   justify-content: space-between;
-  font-weight: bold;
-}
-
-hr.solid {
-  border-top: 1px solid #bbb;
   margin-top: 2rem;
 }
 
@@ -712,6 +741,12 @@ main {
 .contact-text {
   flex: 50%;
 }
+.contact-text__h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 55px;
+  margin-bottom: 2rem;
+}
 
 form {
   display: flex;
@@ -719,7 +754,6 @@ form {
   flex: 50%;
 }
 
-/*lägg till mellanrum mellan raderna*/
 input {
   width: 100%;
   height: 15px;

@@ -34,17 +34,15 @@ main {
 .column {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-end;
+  align-content: center;
+  width: 335px;
 
   & p {
     display: flex;
     justify-content: space-between;
-    font-weight: bold;
+    margin-top: 2rem;
   }
-}
-hr.solid {
-  border-top: 1px solid #bbb;
-  margin-top: 2rem;
 }
 
 .skyroadimg {

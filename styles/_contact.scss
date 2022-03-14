@@ -15,6 +15,13 @@ main {
 
 .contact-text {
   flex: 50%;
+
+  &__h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    margin-bottom: 2rem;
+  }
 }
 
 form {
@@ -22,7 +29,6 @@ form {
   flex-direction: column;
   flex: 50%;
 }
-/*lägg till mellanrum mellan raderna*/
 
 input {
   width: 100%;
